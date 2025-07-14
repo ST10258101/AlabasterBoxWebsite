@@ -1,0 +1,110 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vroop\\Documents\\GitHub\\AlabasterBoxWebsite\\AlabasterBoxWebsite\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4F39F3B6-8141-43BC-8192-E3B2A42F4CD9}|AlabasterBoxWebsite\\AlabasterBoxWebsite.csproj|c:\\users\\vroop\\documents\\github\\alabasterboxwebsite\\alabasterboxwebsite\\alabasterboxwebsite\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4F39F3B6-8141-43BC-8192-E3B2A42F4CD9}|AlabasterBoxWebsite\\AlabasterBoxWebsite.csproj|solutionrelative:alabasterboxwebsite\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F39F3B6-8141-43BC-8192-E3B2A42F4CD9}|AlabasterBoxWebsite\\AlabasterBoxWebsite.csproj|c:\\users\\vroop\\documents\\github\\alabasterboxwebsite\\alabasterboxwebsite\\alabasterboxwebsite\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F39F3B6-8141-43BC-8192-E3B2A42F4CD9}|AlabasterBoxWebsite\\AlabasterBoxWebsite.csproj|solutionrelative:alabasterboxwebsite\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F39F3B6-8141-43BC-8192-E3B2A42F4CD9}|AlabasterBoxWebsite\\AlabasterBoxWebsite.csproj|c:\\users\\vroop\\documents\\github\\alabasterboxwebsite\\alabasterboxwebsite\\alabasterboxwebsite\\services\\youtubehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F39F3B6-8141-43BC-8192-E3B2A42F4CD9}|AlabasterBoxWebsite\\AlabasterBoxWebsite.csproj|solutionrelative:alabasterboxwebsite\\services\\youtubehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F39F3B6-8141-43BC-8192-E3B2A42F4CD9}|AlabasterBoxWebsite\\AlabasterBoxWebsite.csproj|c:\\users\\vroop\\documents\\github\\alabasterboxwebsite\\alabasterboxwebsite\\alabasterboxwebsite\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4F39F3B6-8141-43BC-8192-E3B2A42F4CD9}|AlabasterBoxWebsite\\AlabasterBoxWebsite.csproj|solutionrelative:alabasterboxwebsite\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{9b96d899-3214-4b6f-a8b9-182d4bc2f76f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{c9c0ae26-aa77-11d2-b3f0-0000f87570ee}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\vroop\\Documents\\GitHub\\AlabasterBoxWebsite\\AlabasterBoxWebsite\\AlabasterBoxWebsite\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "AlabasterBoxWebsite\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\vroop\\Documents\\GitHub\\AlabasterBoxWebsite\\AlabasterBoxWebsite\\AlabasterBoxWebsite\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "AlabasterBoxWebsite\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-14T12:55:22.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\vroop\\Documents\\GitHub\\AlabasterBoxWebsite\\AlabasterBoxWebsite\\AlabasterBoxWebsite\\appsettings.json",
+              "RelativeDocumentMoniker": "AlabasterBoxWebsite\\appsettings.json",
+              "ToolTip": "C:\\Users\\vroop\\Documents\\GitHub\\AlabasterBoxWebsite\\AlabasterBoxWebsite\\AlabasterBoxWebsite\\appsettings.json",
+              "RelativeToolTip": "AlabasterBoxWebsite\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-14T12:53:35.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\vroop\\Documents\\GitHub\\AlabasterBoxWebsite\\AlabasterBoxWebsite\\AlabasterBoxWebsite\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "AlabasterBoxWebsite\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\vroop\\Documents\\GitHub\\AlabasterBoxWebsite\\AlabasterBoxWebsite\\AlabasterBoxWebsite\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "AlabasterBoxWebsite\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T12:52:37.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "YouTubeHelper.cs",
+              "DocumentMoniker": "C:\\Users\\vroop\\Documents\\GitHub\\AlabasterBoxWebsite\\AlabasterBoxWebsite\\AlabasterBoxWebsite\\Services\\YouTubeHelper.cs",
+              "RelativeDocumentMoniker": "AlabasterBoxWebsite\\Services\\YouTubeHelper.cs",
+              "ToolTip": "C:\\Users\\vroop\\Documents\\GitHub\\AlabasterBoxWebsite\\AlabasterBoxWebsite\\AlabasterBoxWebsite\\Services\\YouTubeHelper.cs",
+              "RelativeToolTip": "AlabasterBoxWebsite\\Services\\YouTubeHelper.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAYwBkAAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T12:50:05.363Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
