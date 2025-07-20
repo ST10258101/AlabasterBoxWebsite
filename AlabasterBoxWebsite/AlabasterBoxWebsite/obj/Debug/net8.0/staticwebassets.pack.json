@@ -13,6 +13,34 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\vroop\\Documents\\GitHub\\AlabasterBoxWebsite\\AlabasterBoxWebsite\\AlabasterBoxWebsite\\wwwroot\\images\\AboutUs.jpg",
+      "PackagePath": "staticwebassets\\images\\AboutUs.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vroop\\Documents\\GitHub\\AlabasterBoxWebsite\\AlabasterBoxWebsite\\AlabasterBoxWebsite\\wwwroot\\images\\Donate.jpg",
+      "PackagePath": "staticwebassets\\images\\Donate.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vroop\\Documents\\GitHub\\AlabasterBoxWebsite\\AlabasterBoxWebsite\\AlabasterBoxWebsite\\wwwroot\\images\\Home.jpg",
+      "PackagePath": "staticwebassets\\images\\Home.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vroop\\Documents\\GitHub\\AlabasterBoxWebsite\\AlabasterBoxWebsite\\AlabasterBoxWebsite\\wwwroot\\images\\PastEvents.jpg",
+      "PackagePath": "staticwebassets\\images\\PastEvents.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vroop\\Documents\\GitHub\\AlabasterBoxWebsite\\AlabasterBoxWebsite\\AlabasterBoxWebsite\\wwwroot\\images\\Testimonies.jpg",
+      "PackagePath": "staticwebassets\\images\\Testimonies.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vroop\\Documents\\GitHub\\AlabasterBoxWebsite\\AlabasterBoxWebsite\\AlabasterBoxWebsite\\wwwroot\\images\\UpcomingEvents.jpg",
+      "PackagePath": "staticwebassets\\images\\UpcomingEvents.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vroop\\Documents\\GitHub\\AlabasterBoxWebsite\\AlabasterBoxWebsite\\AlabasterBoxWebsite\\wwwroot\\images\\team-member.jpg",
+      "PackagePath": "staticwebassets\\images\\team-member.jpg"
+    },
+    {
       "Id": "C:\\Users\\vroop\\Documents\\GitHub\\AlabasterBoxWebsite\\AlabasterBoxWebsite\\AlabasterBoxWebsite\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
