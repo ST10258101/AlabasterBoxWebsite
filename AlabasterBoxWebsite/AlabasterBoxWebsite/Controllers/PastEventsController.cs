@@ -8,5 +8,13 @@ namespace AlabasterBoxWebsite.Controllers
         {
             return View();
         }
+        public IActionResult AddPastEvents()
+        {
+            return View();
+        }
+        public IActionResult Admin()
+        {
+            return View();
+        }
     }
 }

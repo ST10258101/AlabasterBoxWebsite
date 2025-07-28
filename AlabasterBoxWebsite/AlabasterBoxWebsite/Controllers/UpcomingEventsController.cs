@@ -8,5 +8,17 @@ namespace AlabasterBoxWebsite.Controllers
         {
             return View();
         }
+        public IActionResult AddUpcomingEvents()
+        {
+            return View();
+        }
+        public IActionResult Admin()
+        {
+            return View();
+        }
+        public IActionResult Volunteer()
+        {
+            return View();
+        }
     }
 }

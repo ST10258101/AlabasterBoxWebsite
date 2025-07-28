@@ -1,83 +1,109 @@
 ﻿@{
-    ViewBag.Title = "About Us";
+    ViewBag.Title = "Login";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
 @section Styles {
     <style>
-        /* Full-width banner */
-        .hero {
-            width: 100vw;
-            margin-left: calc(-50vw + 50%);
-            position: relative;
-            background: url('../images/AboutUs.jpg') center center / cover no-repeat;
-            height: 350px;
+        /* Two-column layout for login and image */
+        .login-container {
+            display: flex;
+            min-height: 100vh;
+        }
+
+        .login-form-wrapper {
+            flex: 1 1 50%;
             display: flex;
             align-items: center;
             justify-content: center;
-            color: white;
-            text-shadow: 0 2px 4px rgba(0,0,0,0.6);
-            margin-bottom: 3rem;
-        }
-
-        .hero-overlay {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(0,0,0,0.4);
-        }
-
-        .hero-content {
-            position: relative;
-            z-index: 1;
-            text-align: center;
-        }
-
-        /* About card styling */
-        .about-card {
-            margin-top: -5rem;
-            background: #fff;
-            border-radius: .5rem;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
             padding: 2rem;
         }
 
-        .about-image {
-            width: 100%;
-            border-radius: .5rem;
-            object-fit: cover;
-            max-height: 450px;
+        .login-image {
+            flex: 1 1 50%;
+            /* Updated image path */
+            background: url('../images/Login.jpg') center center / cover no-repeat;
+            /* Ensure the image fills the column height */
+            min-height: 100vh;
         }
 
-        /* Gap between card and text content */
-        .about-content p {
-            margin-bottom: 1rem;
+        /* Form styling */
+        .login-form {
+            width: 100%;
+            max-width: 400px;
         }
+
+            .login-form h2 {
+                text-align: center;
+                margin-bottom: 2rem;
+                font-weight: 600;
+                font-size: 2rem;
+                color: #0f2f36;
+            }
+
+            .login-form label {
+                display: block;
+                margin-bottom: .5rem;
+                font-weight: 500;
+                color: #0f2f36;
+            }
+
+            .login-form input[type="text"],
+            .login-form input[type="password"] {
+                width: 100%;
+                padding: .75rem 1rem;
+                border: 1px solid #ccc;
+                border-radius: .375rem;
+                margin-bottom: 1rem;
+                font-size: 1rem;
+                outline: none;
+            }
+
+            .login-form a.forgot {
+                display: inline-block;
+                margin-bottom: 1.5rem;
+                font-size: .9rem;
+                color: #f08a24;
+                text-decoration: none;
+            }
+
+            .login-form .btn-login {
+                width: 100%;
+                padding: .75rem;
+                background-color: #0f2f36;
+                color: #fff;
+                border: none;
+                border-radius: .375rem;
+                font-size: 1.125rem;
+                cursor: pointer;
+                box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            }
+
+            .login-form .btn-register {
+                display: block;
+                margin: 1.5rem auto 0;
+                font-size: 1.125rem;
+                color: #f08a24;
+                text-decoration: none;
+                font-weight: 500;
+            }
     </style>
 }
 
-<div class="hero">
-    <div class="hero-overlay"></div>
-    <div class="hero-content">
-        <h1 class="display-4 font-weight-bold">About Us</h1>
-        <p class="lead mt-2">Then Jesus said to them, "So wherever you go in the world,<br /> tell everyone the Good News."</p>
-    </div>
-</div>
+<div class="login-container">
+    <div class="login-form-wrapper">
+        <form class="login-form">
+            <h2>Login</h2>
+            <label for="username">User Name</label>
+            <input type="text" id="username" name="username" placeholder="Enter your username" />
 
-<div class="container">
-    <div class="row justify-content-center">
-        <div class="col-lg-10 about-card d-flex flex-wrap align-items-center">
-            <div class="col-md-5 mb-4 mb-md-0">
-                <img src="~/images/team-member.jpg" alt="Team Member" class="about-image" />
-            </div>
-            <div class="col-md-7 about-content">
-                <h2 class="h3 font-weight-bold mb-3">About us</h2>
-                <p>Alabaster Box Anointing Ministries is a Christ-centered organization dedicated to spreading the love, hope, and healing power of Jesus Christ to communities near and far. Rooted in Mark 16:15, our mission is to go into all the world and share the Good News with everyone—through outreach, prayer, charity, and discipleship.</p>
-                <p>Founded with a heart for service and a passion for transformation, we believe that every person matters and that through faith, lives can be restored and empowered. Whether we’re feeding the hungry, praying for the brokenhearted, or equipping others with the Word of God, our purpose remains the same: to serve with compassion and walk in the anointing of the Holy Spirit.</p>
-                <p class="font-weight-bold">Join us as we continue to pour out love like the alabaster jar selflessly and wholeheartedly for the glory of God.</p>
-            </div>
-        </div>
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" />
+
+            <a href="#" class="forgot">Forget Password</a>
+            <button type="submit" class="btn-login">Login</button>
+            <a href="~/Account/Register" class="btn-register">Register</a>
+        </form>
     </div>
+    <div class="login-image"></div>
 </div>

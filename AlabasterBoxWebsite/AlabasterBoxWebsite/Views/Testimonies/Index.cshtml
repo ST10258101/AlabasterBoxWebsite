@@ -1,5 +1,4 @@
 ﻿@{
- //   ViewBag.Title = "About Us";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
@@ -35,6 +34,23 @@
             text-align: center;
         }
 
+        /* CTA button styling */
+        .hero-cta {
+            display: inline-block;
+            margin-top: 1.5rem;
+            padding: 0.75rem 1.5rem;
+            background-color: #0000FF;
+            color: white;
+            text-decoration: none;
+            border-radius: 0.375rem;
+            font-size: 1rem;
+            font-weight: 500;
+        }
+
+            .hero-cta:hover {
+                background-color: #ADD8E6;
+            }
+
         /* About card styling */
         .about-card {
             margin-top: -5rem;
@@ -62,7 +78,13 @@
     <div class="hero-overlay"></div>
     <div class="hero-content">
         <h1 class="display-4 font-weight-bold">Testimonies</h1>
-        <p class="lead mt-2">Then Jesus said to them, "So wherever you go in the world,<br /> tell everyone the Good News."</p>
+        <p class="lead mt-2">
+            Then Jesus said to them,<br />
+            "So wherever you go in the world,<br />
+            tell everyone the Good News."
+        </p>
+        <a asp-controller="Testimonies" asp-action="Create" class="hero-cta">
+            Share Your Testimony
+        </a>
     </div>
 </div>
-

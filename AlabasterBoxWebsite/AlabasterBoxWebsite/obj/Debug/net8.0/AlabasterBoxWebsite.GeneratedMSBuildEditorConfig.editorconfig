@@ -42,6 +42,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cUmVnaXN0ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/vroop/Documents/GitHub/AlabasterBoxWebsite/AlabasterBoxWebsite/AlabasterBoxWebsite/Views/PastEvents/AddPastEvents.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFzdEV2ZW50c1xBZGRQYXN0RXZlbnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vroop/Documents/GitHub/AlabasterBoxWebsite/AlabasterBoxWebsite/AlabasterBoxWebsite/Views/PastEvents/Admin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFzdEV2ZW50c1xBZG1pbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/vroop/Documents/GitHub/AlabasterBoxWebsite/AlabasterBoxWebsite/AlabasterBoxWebsite/Views/PastEvents/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFzdEV2ZW50c1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -54,12 +62,28 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/vroop/Documents/GitHub/AlabasterBoxWebsite/AlabasterBoxWebsite/AlabasterBoxWebsite/Views/Testimonies/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVzdGltb25pZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/vroop/Documents/GitHub/AlabasterBoxWebsite/AlabasterBoxWebsite/AlabasterBoxWebsite/Views/Testimonies/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVzdGltb25pZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/vroop/Documents/GitHub/AlabasterBoxWebsite/AlabasterBoxWebsite/AlabasterBoxWebsite/Views/UpcomingEvents/AddUpcomingEvents.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXBjb21pbmdFdmVudHNcQWRkVXBjb21pbmdFdmVudHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vroop/Documents/GitHub/AlabasterBoxWebsite/AlabasterBoxWebsite/AlabasterBoxWebsite/Views/UpcomingEvents/Admin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXBjb21pbmdFdmVudHNcQWRtaW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/vroop/Documents/GitHub/AlabasterBoxWebsite/AlabasterBoxWebsite/AlabasterBoxWebsite/Views/UpcomingEvents/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXBjb21pbmdFdmVudHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vroop/Documents/GitHub/AlabasterBoxWebsite/AlabasterBoxWebsite/AlabasterBoxWebsite/Views/UpcomingEvents/Volunteer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXBjb21pbmdFdmVudHNcVm9sdW50ZWVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/vroop/Documents/GitHub/AlabasterBoxWebsite/AlabasterBoxWebsite/AlabasterBoxWebsite/Views/_ViewImports.cshtml]

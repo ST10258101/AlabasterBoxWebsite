@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "/wZvKzLbDzCKrqx0KlZFVGaMZmyFQd/Qak/oIXCz2wE=",
+  "Hash": "U9IL1iJgpv7nLEFGtVB72rHE35J0IIXz3rtKKe9O/HM=",
   "Source": "AlabasterBoxWebsite",
   "BasePath": "_content/AlabasterBoxWebsite",
   "Mode": "Default",
@@ -148,6 +148,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\Home.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\vroop\\Documents\\GitHub\\AlabasterBoxWebsite\\AlabasterBoxWebsite\\AlabasterBoxWebsite\\wwwroot\\images\\Login.jpg",
+      "SourceId": "AlabasterBoxWebsite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\vroop\\Documents\\GitHub\\AlabasterBoxWebsite\\AlabasterBoxWebsite\\AlabasterBoxWebsite\\wwwroot\\",
+      "BasePath": "_content/AlabasterBoxWebsite",
+      "RelativePath": "images/Login.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Login.jpg"
     },
     {
       "Identity": "C:\\Users\\vroop\\Documents\\GitHub\\AlabasterBoxWebsite\\AlabasterBoxWebsite\\AlabasterBoxWebsite\\wwwroot\\images\\PastEvents.jpg",

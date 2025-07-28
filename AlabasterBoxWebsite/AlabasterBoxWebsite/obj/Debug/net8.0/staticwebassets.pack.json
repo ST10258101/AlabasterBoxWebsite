@@ -25,6 +25,10 @@
       "PackagePath": "staticwebassets\\images\\Home.jpg"
     },
     {
+      "Id": "C:\\Users\\vroop\\Documents\\GitHub\\AlabasterBoxWebsite\\AlabasterBoxWebsite\\AlabasterBoxWebsite\\wwwroot\\images\\Login.jpg",
+      "PackagePath": "staticwebassets\\images\\Login.jpg"
+    },
+    {
       "Id": "C:\\Users\\vroop\\Documents\\GitHub\\AlabasterBoxWebsite\\AlabasterBoxWebsite\\AlabasterBoxWebsite\\wwwroot\\images\\PastEvents.jpg",
       "PackagePath": "staticwebassets\\images\\PastEvents.jpg"
     },
