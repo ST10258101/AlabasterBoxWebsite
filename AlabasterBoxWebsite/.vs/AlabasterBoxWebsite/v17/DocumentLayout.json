@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\vroop\\Documents\\GitHub\\AlabasterBoxWebsite\\AlabasterBoxWebsite\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4F39F3B6-8141-43BC-8192-E3B2A42F4CD9}|AlabasterBoxWebsite\\AlabasterBoxWebsite.csproj|c:\\users\\vroop\\documents\\github\\alabasterboxwebsite\\alabasterboxwebsite\\alabasterboxwebsite\\views\\aboutus\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4F39F3B6-8141-43BC-8192-E3B2A42F4CD9}|AlabasterBoxWebsite\\AlabasterBoxWebsite.csproj|solutionrelative:alabasterboxwebsite\\views\\aboutus\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F39F3B6-8141-43BC-8192-E3B2A42F4CD9}|AlabasterBoxWebsite\\AlabasterBoxWebsite.csproj|c:\\users\\vroop\\documents\\github\\alabasterboxwebsite\\alabasterboxwebsite\\alabasterboxwebsite\\views\\login\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4F39F3B6-8141-43BC-8192-E3B2A42F4CD9}|AlabasterBoxWebsite\\AlabasterBoxWebsite.csproj|solutionrelative:alabasterboxwebsite\\views\\login\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F39F3B6-8141-43BC-8192-E3B2A42F4CD9}|AlabasterBoxWebsite\\AlabasterBoxWebsite.csproj|c:\\users\\vroop\\documents\\github\\alabasterboxwebsite\\alabasterboxwebsite\\alabasterboxwebsite\\views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4F39F3B6-8141-43BC-8192-E3B2A42F4CD9}|AlabasterBoxWebsite\\AlabasterBoxWebsite.csproj|solutionrelative:alabasterboxwebsite\\views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4F39F3B6-8141-43BC-8192-E3B2A42F4CD9}|AlabasterBoxWebsite\\AlabasterBoxWebsite.csproj|c:\\users\\vroop\\documents\\github\\alabasterboxwebsite\\alabasterboxwebsite\\alabasterboxwebsite\\views\\donate\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{4F39F3B6-8141-43BC-8192-E3B2A42F4CD9}|AlabasterBoxWebsite\\AlabasterBoxWebsite.csproj|solutionrelative:alabasterboxwebsite\\views\\donate\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -18,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,7 +46,46 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\vroop\\Documents\\GitHub\\AlabasterBoxWebsite\\AlabasterBoxWebsite\\AlabasterBoxWebsite\\Views\\AboutUs\\Index.cshtml",
+              "RelativeDocumentMoniker": "AlabasterBoxWebsite\\Views\\AboutUs\\Index.cshtml",
+              "ToolTip": "C:\\Users\\vroop\\Documents\\GitHub\\AlabasterBoxWebsite\\AlabasterBoxWebsite\\AlabasterBoxWebsite\\Views\\AboutUs\\Index.cshtml",
+              "RelativeToolTip": "AlabasterBoxWebsite\\Views\\AboutUs\\Index.cshtml",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAAEsAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-02T11:58:36.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\vroop\\Documents\\GitHub\\AlabasterBoxWebsite\\AlabasterBoxWebsite\\AlabasterBoxWebsite\\Views\\Login\\Login.cshtml",
+              "RelativeDocumentMoniker": "AlabasterBoxWebsite\\Views\\Login\\Login.cshtml",
+              "ToolTip": "C:\\Users\\vroop\\Documents\\GitHub\\AlabasterBoxWebsite\\AlabasterBoxWebsite\\AlabasterBoxWebsite\\Views\\Login\\Login.cshtml",
+              "RelativeToolTip": "AlabasterBoxWebsite\\Views\\Login\\Login.cshtml",
+              "ViewState": "AQIAAF0AAAAAAAAAAAAwwHEAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-01T06:25:11.794Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\vroop\\Documents\\GitHub\\AlabasterBoxWebsite\\AlabasterBoxWebsite\\AlabasterBoxWebsite\\Views\\Login\\Register.cshtml",
+              "RelativeDocumentMoniker": "AlabasterBoxWebsite\\Views\\Login\\Register.cshtml",
+              "ToolTip": "C:\\Users\\vroop\\Documents\\GitHub\\AlabasterBoxWebsite\\AlabasterBoxWebsite\\AlabasterBoxWebsite\\Views\\Login\\Register.cshtml",
+              "RelativeToolTip": "AlabasterBoxWebsite\\Views\\Login\\Register.cshtml",
+              "ViewState": "AQIAAFoAAAAAAAAAAAAwwHgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-01T06:06:36.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Admin.cshtml",
               "DocumentMoniker": "C:\\Users\\vroop\\Documents\\GitHub\\AlabasterBoxWebsite\\AlabasterBoxWebsite\\AlabasterBoxWebsite\\Views\\UpcomingEvents\\Admin.cshtml",
               "RelativeDocumentMoniker": "AlabasterBoxWebsite\\Views\\UpcomingEvents\\Admin.cshtml",
@@ -42,18 +93,17 @@
               "RelativeToolTip": "AlabasterBoxWebsite\\Views\\UpcomingEvents\\Admin.cshtml",
               "ViewState": "AQIAAHgAAAAAAAAAAAAAAI8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-28T09:17:22.528Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-28T09:17:22.528Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\vroop\\Documents\\GitHub\\AlabasterBoxWebsite\\AlabasterBoxWebsite\\AlabasterBoxWebsite\\Views\\Donate\\Index.cshtml",
               "RelativeDocumentMoniker": "AlabasterBoxWebsite\\Views\\Donate\\Index.cshtml",
               "ToolTip": "C:\\Users\\vroop\\Documents\\GitHub\\AlabasterBoxWebsite\\AlabasterBoxWebsite\\AlabasterBoxWebsite\\Views\\Donate\\Index.cshtml",
               "RelativeToolTip": "AlabasterBoxWebsite\\Views\\Donate\\Index.cshtml",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAwwEIAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-07-28T09:16:31.696Z",
               "EditorCaption": ""

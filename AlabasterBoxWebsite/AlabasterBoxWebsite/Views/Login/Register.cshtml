@@ -1,39 +1,47 @@
 ﻿@{
-    ViewBag.Title = "Login";
+    ViewBag.Title = "Register";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
 @section Styles {
     <style>
-        /* Two-column layout for login and image */
-        .login-container {
+        /* Two-column layout with right alignment */
+        .register-container {
             display: flex;
             min-height: 100vh;
+            align-items: center;
+            justify-content: flex-end;
+            background: #f8f9fa;
+            padding-right: 5rem;
         }
 
-        .login-form-wrapper {
-            flex: 1 1 50%;
+        .form-wrapper {
+            flex: 0 0 auto;
             display: flex;
             align-items: center;
             justify-content: center;
             padding: 2rem;
-        }
-
-        .login-image {
-            flex: 1 1 50%;
-            /* Updated image path */
-            background: url('../images/Login.jpg') center center / cover no-repeat;
-            /* Ensure the image fills the column height */
-            min-height: 100vh;
-        }
-
-        /* Form styling */
-        .login-form {
-            width: 100%;
+            background: #f8f9fa;
             max-width: 400px;
         }
 
-            .login-form h2 {
+        .side-image {
+            flex: 0 0 auto;
+            aspect-ratio: 1 / 1;
+            width: 50vw;
+            max-width: 600px;
+            background: url('../images/Logo.jpg') center center / cover no-repeat;
+            border-radius: .5rem;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            margin-right: 2rem;
+        }
+
+        /* Form styling */
+        .register-form {
+            width: 100%;
+        }
+
+            .register-form h2 {
                 text-align: center;
                 margin-bottom: 2rem;
                 font-weight: 600;
@@ -41,15 +49,17 @@
                 color: #0f2f36;
             }
 
-            .login-form label {
+            .register-form label {
                 display: block;
                 margin-bottom: .5rem;
                 font-weight: 500;
                 color: #0f2f36;
             }
 
-            .login-form input[type="text"],
-            .login-form input[type="password"] {
+            .register-form input[type="text"],
+            .register-form input[type="password"],
+            .register-form input[type="email"],
+            .register-form input[type="tel"] {
                 width: 100%;
                 padding: .75rem 1rem;
                 border: 1px solid #ccc;
@@ -59,15 +69,7 @@
                 outline: none;
             }
 
-            .login-form a.forgot {
-                display: inline-block;
-                margin-bottom: 1.5rem;
-                font-size: .9rem;
-                color: #f08a24;
-                text-decoration: none;
-            }
-
-            .login-form .btn-login {
+            .register-form .btn-submit {
                 width: 100%;
                 padding: .75rem;
                 background-color: #0f2f36;
@@ -79,10 +81,10 @@
                 box-shadow: 0 4px 8px rgba(0,0,0,0.1);
             }
 
-            .login-form .btn-register {
+            .register-form .btn-login-link {
                 display: block;
-                margin: 1.5rem auto 0;
-                font-size: 1.125rem;
+                text-align: center;
+                margin-top: 1rem;
                 color: #f08a24;
                 text-decoration: none;
                 font-weight: 500;
@@ -90,20 +92,29 @@
     </style>
 }
 
-<div class="login-container">
-    <div class="login-form-wrapper">
-        <form class="login-form">
-            <h2>Login</h2>
-            <label for="username">User Name</label>
-            <input type="text" id="username" name="username" placeholder="Enter your username" />
+<div class="register-container">
+    <div class="form-wrapper">
+        <form class="register-form">
+            <h2>Register</h2>
+
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your full name" />
+
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" />
+
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" />
 
             <label for="password">Password</label>
-            <input type="password" id="password" name="password" placeholder="Enter your password" />
+            <input type="password" id="password" name="password" placeholder="Create a password" />
 
-            <a href="#" class="forgot">Forget Password</a>
-            <button type="submit" class="btn-login">Login</button>
-            <a href="~/Account/Register" class="btn-register">Register</a>
+            <label for="confirmPassword">Confirm Password</label>
+            <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Confirm your password" />
+
+            <button type="submit" class="btn-submit">Register</button>
+            <a href="~/Login/Login" class="btn-login-link">Already have an account? Login</a>
         </form>
     </div>
-    <div class="login-image"></div>
+    <div class="side-image"></div>
 </div>

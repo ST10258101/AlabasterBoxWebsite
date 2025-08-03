@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AlabasterBoxWebsite")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+44a9bfde807e91806e21d7068f7c2f58d43004a5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+861c0f358ee047a21751618429bf3ca54ebe646b")]
 [assembly: System.Reflection.AssemblyProductAttribute("AlabasterBoxWebsite")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AlabasterBoxWebsite")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

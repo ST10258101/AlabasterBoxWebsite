@@ -5,32 +5,40 @@
 
 @section Styles {
     <style>
-        /* Two-column layout for login and image */
+        /* Two-column layout with right alignment */
         .login-container {
             display: flex;
             min-height: 100vh;
+            align-items: center;
+            justify-content: flex-end; /* align children to the right */
+            background: #f8f9fa;
+            padding-right: 5rem; /* add right padding */
         }
 
         .login-form-wrapper {
-            flex: 1 1 50%;
+            flex: 0 0 auto;
             display: flex;
             align-items: center;
             justify-content: center;
             padding: 2rem;
+            background: #f8f9fa;
+            max-width: 400px;
         }
 
         .login-image {
-            flex: 1 1 50%;
-            /* Updated image path */
-            background: url('../images/Login.jpg') center center / cover no-repeat;
-            /* Ensure the image fills the column height */
-            min-height: 100vh;
+            flex: 0 0 auto;
+            aspect-ratio: 1 / 1;
+            width: 50vw;
+            max-width: 600px;
+            background: url('../images/Logo.jpg') center center / cover no-repeat;
+            border-radius: .5rem;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            margin-right: 2rem; /* space between form and image */
         }
 
         /* Form styling */
         .login-form {
             width: 100%;
-            max-width: 400px;
         }
 
             .login-form h2 {
@@ -94,15 +102,15 @@
     <div class="login-form-wrapper">
         <form class="login-form">
             <h2>Login</h2>
-            <label for="username">User Name</label>
-            <input type="text" id="username" name="username" placeholder="Enter your username" />
+            <label for="Email">Email</label>
+            <input type="text" id="Email" name="Email" placeholder="Enter your Email" />
 
             <label for="password">Password</label>
             <input type="password" id="password" name="password" placeholder="Enter your password" />
 
             <a href="#" class="forgot">Forget Password</a>
             <button type="submit" class="btn-login">Login</button>
-            <a href="~/Account/Register" class="btn-register">Register</a>
+            <a href="~/Login/Register" class="btn-register">Register</a>
         </form>
     </div>
     <div class="login-image"></div>
